@@ -1,0 +1,73 @@
+/* this is for html and body */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  background-color: #f8efea;
+  margin: 0%;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+/* this is to provide space between the name and the nav bar*/
+#intro{
+  margin-top: 18%;
+}
+
+/* this is for the texts and words to be centered */
+h1, h2, h3, p {
+  text-align: center;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  display: block;
+  font-display: block;
+}
+
+/* this is for the container */
+.container {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+/* i think this is for the logo on the left ; i will add that later*/
+#bar{
+  height:50px;
+  width:50px;
+  float:left;
+  border:20%;
+  border-color: #ffffff;
+}
+/* this is for the color background of the skills section*/
+.skills {
+  background-color: #f4cee2;
+  padding: 20px;
+  
+}
+/* this is for the color backgrounf of the projects section*/
+.projects{
+  background-color: #f4cee2;
+  padding: 10px;
+}
+
+/* this is for the nav bar (home) */
+.nav a {
+  color: #f39aca; 
+  float: right;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  
+}
+
+/* this is for the hyperlink word (website)*/
+a {
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+}
+
+/*this is to provide space at the bottom between project section and copyright*/
+.projects{
+  margin-bottom: 10%;
+}
