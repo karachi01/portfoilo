@@ -2,6 +2,11 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #000000;
   font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
   font-size: 15px;
   background-color: #f8efea;
@@ -42,13 +47,13 @@ h1, h2, h3, p {
   border-color: #ffffff;
 }
 /* this is for the color background of the skills section*/
-.skills {
+#skills {
   background-color: #f4cee2;
   padding: 20px;
   
 }
 /* this is for the color backgrounf of the projects section*/
-.projects{
+#projects{
   background-color: #f4cee2;
   padding: 10px;
 }
@@ -69,7 +74,7 @@ a {
 }
 
 /*this is to provide space at the bottom between project section and copyright*/
-.projects{
+#projects{
   margin-bottom: 10%;
 }
 
@@ -161,4 +166,23 @@ a {
   width: 50px; /* Adjust the width of the image as needed */
   height: 50px;
   margin-top: 0%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-image, .github-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
+
+
+
+.linkedin-image, .github-image{
+  width: 50px;
+  height: 50px;
 }
